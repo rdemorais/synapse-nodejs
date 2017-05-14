@@ -1,1 +1,1 @@
-## Synapse NodeJS
+## Synapse NodeJS [![Docker Build Statu](https://img.shields.io/docker/build/synapsetec/nodejs.svg?style=plastic)]()
