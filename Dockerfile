@@ -2,7 +2,7 @@ FROM ubuntu
 MAINTAINER Rafael de Morais "rdemorais.freitas@gmail.com"
 RUN apt-get update && \
     apt-get install -y curl --no-install-recommends && \
-    curl -k -L https://deb.nodesource.com/setup_6.x | bash -  && \
+    curl -k -L https://deb.nodesource.com/setup_7.x | bash -  && \
     apt-get install -y nodejs --no-install-recommends && \
     apt-get install -y build-essential && \
     npm install pm2 -g && \
